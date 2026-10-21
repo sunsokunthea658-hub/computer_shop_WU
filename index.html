@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./assets/css/costum.css">
+
+</head>
+
+<body>
+    <!-- sematic tags vs none sematic tags -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav  mb-2 mb-lg-0  me-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">អំពីពួកយើង</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">ផលិតផល</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contect.html">ទំនាក់ទំនង់</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex   " role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade " data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./assets/images/banner/b1.png" class="d-block w-100 rounded-4" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/images/banner/b2.png" class="d-block w-100 rounded-4" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/banner/b3.png" class="d-block w-100 rounded-4" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="containter  ">
+        <div class="row   g-4  p-3">
+            <!-- Desktop -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0 ">
+                        <img src="./assets/images/product/Laptop/MainL.png" class="card-img-top rounded-5 " alt="..."
+                            style="position: relative;">
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#laptop" class="card-title c-title">Laptops</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0   ">
+                        <img src="./assets/images/product/Acessories/MainA.png" class="card-img-top rounded-5 " style="object-fit: contain;" alt="..."
+                            style="position: relative;">
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#acessories" class="card-title c-title">Acessories</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0   ">
+                        <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                            style="position: relative;">
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#desktop" class="card-title c-title">Desktop</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0   ">
+                        <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                            style="position: relative;">
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#monitor" class="card-title c-title">Monitor</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0">
+                        <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                            style="position: relative;">   
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#component" class="card-title c-title">component</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card rounded-5 h-auto cate-card">
+                    <div class="container p-2 m-0 ">
+                        <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                            style="position: relative;">
+                    </div>
+                    <div class="card-body ">
+                        <a href="./product.html#networking" class="card-title c-title">Networking</a>
+                        <p class="card-text"> This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer class=" fooTer py-5">
+        <div class="container-fluid px-5">
+            <div class="row">
+
+                <div class="col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="f-logo d-flex">
+                        <img src="./assets/images/logo/fflogo.png" alt=""
+                            style="width:60px; height: 60px; object-fit: cover;" class="w-20 h-15 rounded-4">
+                        <div class="px-2">
+                            <h6 class="f-name">Manu Computer Store</h6>
+                            <p class="f-cap ">The best store in cambodia </p>
+                        </div>
+
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">Gift Cards Lorem ipsum
+                                dolor, sit amet consectetur adipisicing elit. Rerum nulla dicta voluptatem quam illo
+                                natus!</a></li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn btn-light">Update24/7</button>
+                        <h6 class="f-cap px-2 align-content-center">update weely</h6>
+                    </div>
+                </div>
+
+                <!-- PRODUCT -->
+                <div class="col-6 col-md-3 col-lg-1 mb-4">
+                    <h6 class="fw-bold mb-3">PRODUCT</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">Fearture</a></li>
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">template</a></li>
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">Intergration</a></li>
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">Security</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="col-6 col-md-3 col-lg-1 mb-4">
+                    <h6 class="fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">About Nike</a></li>
+                        <li class="mb-2"><a href="./product.html" href="#" class="text-secondary text-decoration-none">News</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Investors</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Sustainability</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Purpose</a></li>
+
+                    </ul>
+                </div>
+
+                <!-- Community Discounts -->
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="fw-bold mb-3">Community Discounts</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Military</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Student</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Teacher</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">First Responders</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Medical
+                                Professionals</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community Discounts -->
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="fw-bold mb-3">Community Discounts</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Military</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Student</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Teacher</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">First Responders</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Medical
+                                Professionals</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community Discounts -->
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="fw-bold mb-3">Community Discounts</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Gift Cards Lorem ipsum
+                                dolor, sit amet consectetur adipisicing elit. Rerum nulla dicta voluptatem quam illo
+                                natus!</a></li>
+                    </ul>
+                    <div class=" all-sub d-flex justify-content-end">
+                        <input type="search" placeholder="Email Adress" class="write h-100">
+                        <div class="sub  ">
+                         <button class="  btn btn-dark w-auto rounded-3">Subscribe</button>   
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

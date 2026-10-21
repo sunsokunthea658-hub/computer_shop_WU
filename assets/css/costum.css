@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "battambang";
+    src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family: "koulen";
+    src: url(..//fonts/Koulen/Koulen-Regular.ttf);
+}
+@font-face {
+    font-family: "open_SansBold";
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf');
+}
+@font-face {
+    font-family:"open_sansRegular" ;
+    src: url('../fonts/Open_Sans/static/OpenSans_SemiCondensed-Regular.ttf');
+}
+h1,h2,h3,h4,h5,h6, .nav-link{
+    font-family: "koulen", "open_SansBold";
+    color: blue;
+}
+body {
+    font-family: "battambang","open_SansBold";
+}   
+.nav-link:hover{
+    color:red;
+    scale: 1.1;
+    transition: 0.3s;
+}
+.card{
+    height: 374px;
+    overflow-y: hidden;
+}
+.card-text {
+    color: gray;
+}
+.fooTer a {
+  text-decoration: none;  
+}
+
+a {
+    font-family: "koulen", "open_SansBold";
+    color: blue;
+}
+.fooTer {
+    background-color: rgb(222, 222, 222);
+    
+}
+.f-name {
+    color: black;
+}
+.f-cap {
+    color: gray;
+}
+.all-sub .write {
+    position: relative;
+}
+.all-sub .sub {
+    
+    position: absolute;
+
+}
+.cate-card img:hover{
+    scale: 1.05;
+    transition: 1s;
+}
+.c-title {
+    text-decoration: none;
+   
+     
+}
+
+.cate-card img {
+    height: 200px;
+    
+    object-fit: cover;
+}

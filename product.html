@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./assets/css/costum.css">
+</head>
+
+<body>
+    <!-- sematic tags vs none sematic tags -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">អំពីពួកយើង</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./product.html">ផលិតផល</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contect.html">ទំនាក់ទំនង់</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="containter ">
+        <img src="./assets/images/banner/b1.png" alt="" class="w-100">
+        <ul class="nav nav-tabs px-lg-5 px-xs-auto" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="laptop-tab" data-bs-toggle="tab" data-bs-target="#laptop-tab-pane"
+                    type="button" role="tab" aria-controls="laptop-tab-pane" aria-selected="true">laptop</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="acessories-tab" data-bs-toggle="tab" data-bs-target="#acessories-tab-pane"
+                    type="button" role="tab" aria-controls="acessories-tab-pane"
+                    aria-selected="false">acessories</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="desktop-tab" data-bs-toggle="tab" data-bs-target="#desktop-tab-pane"
+                    type="button" role="tab" aria-controls="desktop-tab-pane" aria-selected="false">desktop</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="monitor-tab" data-bs-toggle="tab" data-bs-target="#monitor-tab-pane"
+                    type="button" role="tab" aria-controls="monitor-tab-pane" aria-selected="false">monitor</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="component-tab" data-bs-toggle="tab" data-bs-target="#component-tab-pane"
+                    type="button" role="tab" aria-controls="component-tab-pane" aria-selected="false">component</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="networking-tab" data-bs-toggle="tab" data-bs-target="#networking-tab-pane"
+                    type="button" role="tab" aria-controls="networking-tab-pane"
+                    aria-selected="false">networking</button>
+            </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="laptop-tab-pane" role="tabpanel" aria-labelledby="laptop-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row g-4 p-3">
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="./product.html#laptop" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 ">
+                            <div class="card rounded-5 h-auto cate-card">
+                                <div class="container p-2 m-0 ">
+                                    <img src="./assets/images/product/p1.png" class="card-img-top rounded-5 " alt="..."
+                                        style="position: relative;">
+                                </div>
+                                <div class="card-body ">
+                                    <a href="" class="card-title c-title">Laptops</a>
+                                    <p class="card-text"> This content is a little bit longer.</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="acessories-tab-pane" role="tabpanel" aria-labelledby="acessories-tab"
+                tabindex="0">
+                acessories</div>
+            <div class="tab-pane fade" id="desktop-tab-pane" role="tabpanel" aria-labelledby="desktop-tab" tabindex="0">
+                destop</div>
+            <div class="tab-pane fade" id="monitor-tab-pane" role="tabpanel" aria-labelledby="monitor-tab" tabindex="0">
+                destop</div>
+            <div class="tab-pane fade" id="component-tab-pane" role="tabpanel" aria-labelledby="component-tab"
+                tabindex="0">
+                component</div>
+            <div class="tab-pane fade" id="networking-pane" role="tabpanel" aria-labelledby="networking" tabindex="0">
+                Networking</div>
+
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
